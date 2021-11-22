@@ -1,2 +1,2 @@
-# Auto-Encoder-follow-by-QDA
-Auto-encoder follow by QDA  
+# Autoencoder-followed-by-QDA
+Autoencoder followed by QDA
