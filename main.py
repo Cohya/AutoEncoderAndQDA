@@ -115,9 +115,15 @@ print("acc: ", 1 - sum(abs(results[0] - Ytrue))/len(Ytrue))
 
 
     
-    
-    
-    
+##### The next step:
+    # 1) after the creation of the lower dimmentional representation. We can Apply 
+    #     PCA to creat independency between the data(direction). (make it orthogonal).
+    #     After we do that, we are able to calculate the pdf simply by using:
+    #         p(y|x_1, ...,x_n) = pi(y) * Pi_{i}^{d} f_kj(yj)
+    #         # (actually we can estimate each direction if we don't want to use parametric density
+            # , in other words, we can estimate f at each direction using nonparametric technique 
+            # see kernal DEnsity estimation p.312 )
+    # very similar to naive bayes classifier approach by with justify assumption of independency (p.359)
         
     
         
