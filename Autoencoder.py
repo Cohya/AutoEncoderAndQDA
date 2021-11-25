@@ -63,7 +63,7 @@ class Autoencoder(object):
         
         Z = X
         for layer in self.layers:
-            Z = layer.forward(X)
+            Z = layer.forward(Z)
             
         return Z
     
